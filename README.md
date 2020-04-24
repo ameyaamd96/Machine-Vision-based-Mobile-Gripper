@@ -46,6 +46,10 @@ Duty cycle for the servo motor actuation was tuned with the help of the data fro
 EXPERIMENTAL RESULTS
 The noise in the IR data was attenuated as the moving average of the IR data was used in the control loop. In the camera data, to remove the excess noise, Gaussian Blur was used, which improved the performance of the system. Time delays were used wherever necessary and PWM outputs were tuned, which resulted in smoother operation of the system. The extensive calibration of the sensors was very crucial in giving the accurate results. The real-time digital feedback loops for the x and z direction control of the robot were quite accurate.
 
+![](logic_flow.JPG)
+
 DISCUSSIONS AND CONCLUSIONS
 After the tuning of the PWM outputs of the DC motors, duty cycles of the servo motors and the gains in the feedback control loops, the project objectives were accomplished. Apart from achieving the project objectives, we attempted to control the z-direction using the change in the contour area of the object detected, but as the area varies largely even with small changes in the contour, the control input generated is not very consistent. Also, in extension to the set objectives for the project, we also incorporated additional piezo electric sensors to have more consistent pressure applied while gripping so as to improve the gripping action.
+
+![](Final_assembly.JPG)
 
